@@ -8,10 +8,10 @@ TagManager:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - decorate
   - Water
   - UI
-  - 
+  - base
   - 
   - 
   - 
@@ -38,6 +38,15 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: decorate under base
+    uniqueID: 2828465927
+    locked: 0
+  - name: base
+    uniqueID: 3602459095
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: decorate
+    uniqueID: 2360797609
     locked: 0

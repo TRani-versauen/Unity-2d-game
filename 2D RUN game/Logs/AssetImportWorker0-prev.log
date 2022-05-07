@@ -1,23 +1,23 @@
 Using pre-set license
-Built from '2021.3/staging' branch; Version is '2021.3.1f1 (3b70a0754835) revision 3895456'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19042) 64bit Professional' Language: 'zh' Physical Memory: 32725 MB
+Built from '2021.3/staging' branch; Version is '2021.3.0f1 (6eacc8284459) revision 7253192'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.18363) 64bit Professional' Language: 'zh' Physical Memory: 32584 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-D:\unity data\2021.3.1f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2021.3.0f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-D:/unity place/Unity-2d-game/2D RUN game
+C:/Users/17G319S02/Desktop/Unity-2d-game/2D RUN game
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-64578
-Successfully changed project path to: D:/unity place/Unity-2d-game/2D RUN game
-D:/unity place/Unity-2d-game/2D RUN game
+51908
+Successfully changed project path to: C:/Users/17G319S02/Desktop/Unity-2d-game/2D RUN game
+C:/Users/17G319S02/Desktop/Unity-2d-game/2D RUN game
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,109 +47,109 @@ D:/unity place/Unity-2d-game/2D RUN game
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 139.09 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 87.54 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 2021.3.1f1 (3b70a0754835)
-[Subsystems] Discovering subsystems at path D:/unity data/2021.3.1f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/unity place/Unity-2d-game/2D RUN game/Assets
+Initialize engine version: 2021.3.0f1 (6eacc8284459)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/17G319S02/Desktop/Unity-2d-game/2D RUN game/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1080 (ID=0x1ba0)
+    Renderer: NVIDIA GeForce RTX 2070 Super with Max-Q Design (ID=0x1e91)
     Vendor:   NVIDIA
-    VRAM:     7988 MB
-    Driver:   30.0.14.7284
+    VRAM:     8011 MB
+    Driver:   26.21.14.4183
 Initialize mono
-Mono path[0] = 'D:/unity data/2021.3.1f1/Editor/Data/Managed'
-Mono path[1] = 'D:/unity data/2021.3.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'D:/unity data/2021.3.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56188
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56444
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: D:/unity data/2021.3.1f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: D:/unity data/2021.3.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.007284 seconds.
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005099 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 141.64 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 86.13 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.980 seconds
+- Completed reload, in  0.593 seconds
 Domain Reload Profiling:
-	ReloadAssembly (981ms)
-		BeginReloadAssembly (112ms)
+	ReloadAssembly (594ms)
+		BeginReloadAssembly (63ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (687ms)
-			LoadAssemblies (110ms)
+		EndReloadAssembly (435ms)
+			LoadAssemblies (61ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (149ms)
+			SetupTypeCache (105ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (48ms)
-			SetupLoadedEditorAssemblies (415ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (256ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
+				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (142ms)
+				RefreshPlugins (86ms)
 				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (181ms)
-				ProcessInitializeOnLoadMethodAttributes (77ms)
+				ProcessInitializeOnLoadAttributes (119ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.007147 seconds.
+Registered in 0.005336 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\unity place\Unity-2d-game\2D RUN game\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\17G319S02\Desktop\Unity-2d-game\2D RUN game\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory doesn't match image D:\unity place\Unity-2d-game\2D RUN game\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\17G319S02\Desktop\Unity-2d-game\2D RUN game\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 134.32 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 82.49 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.595 seconds
+- Completed reload, in  1.023 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1596ms)
-		BeginReloadAssembly (155ms)
+	ReloadAssembly (1024ms)
+		BeginReloadAssembly (93ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (10ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (24ms)
-		EndReloadAssembly (1282ms)
-			LoadAssemblies (123ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (823ms)
+			LoadAssemblies (76ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (362ms)
+			SetupTypeCache (214ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (89ms)
-			SetupLoadedEditorAssemblies (627ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (432ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (134ms)
-				BeforeProcessingInitializeOnLoad (127ms)
-				ProcessInitializeOnLoadAttributes (302ms)
-				ProcessInitializeOnLoadMethodAttributes (52ms)
-				AfterProcessingInitializeOnLoad (5ms)
+				RefreshPlugins (83ms)
+				BeforeProcessingInitializeOnLoad (85ms)
+				ProcessInitializeOnLoadAttributes (208ms)
+				ProcessInitializeOnLoadMethodAttributes (43ms)
+				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
-Refreshing native plugins compatible for Editor in 0.88 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.74 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3913 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 34 unused Assets / (55.6 KB). Loaded Objects now: 4373.
-Memory consumption went from 147.0 MB to 147.0 MB.
-Total: 4.507700 ms (FindLiveObjects: 0.549200 ms CreateObjectMapping: 0.562300 ms MarkObjects: 3.302000 ms  DeleteObjects: 0.077300 ms)
+Unloading 34 unused Assets / (55.6 KB). Loaded Objects now: 4372.
+Memory consumption went from 146.8 MB to 146.8 MB.
+Total: 4.098500 ms (FindLiveObjects: 0.462000 ms CreateObjectMapping: 0.407000 ms MarkObjects: 3.158700 ms  DeleteObjects: 0.069800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -163,67 +163,53 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 326739.260640 seconds.
-  path: Assets/範例完成素材/預置位置.unity
-  artifactKey: Guid(c535fffc2550aee438f9f0164c7327ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/範例完成素材/預置位置.unity using Guid(c535fffc2550aee438f9f0164c7327ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f02c332acb1b7a346ae2bd377bb3c64') in 0.010426 seconds 
+  Time since last request: 9329.621381 seconds.
+  path: Assets/調整比例過/裝飾素材/圍欄/圍欄_5.prefab
+  artifactKey: Guid(436c8587a05531040bd274bf18c20337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調整比例過/裝飾素材/圍欄/圍欄_5.prefab using Guid(436c8587a05531040bd274bf18c20337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e3176caee785d1bda8e66c34eca619b') in 0.130623 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 46.434190 seconds.
-  path: Assets/範例完成素材/預置位置.unity
-  artifactKey: Guid(c535fffc2550aee438f9f0164c7327ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/範例完成素材/預置位置.unity using Guid(c535fffc2550aee438f9f0164c7327ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '535c197466776e8c678a2153187a2856') in 0.007619 seconds 
+  Time since last request: 0.000027 seconds.
+  path: Assets/調整比例過/裝飾素材/圍欄/圍欄_0.prefab
+  artifactKey: Guid(c2127218e30763f42868175465a26388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調整比例過/裝飾素材/圍欄/圍欄_0.prefab using Guid(c2127218e30763f42868175465a26388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c8a64b95eee1b1d416f767a2edfb34d') in 0.018447 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 210.563840 seconds.
-  path: Assets/調整比例後素材/大型住宅_0.prefab
-  artifactKey: Guid(6b61e0d056170dd42816ded975fc9edb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/調整比例後素材/大型住宅_0.prefab using Guid(6b61e0d056170dd42816ded975fc9edb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e71f2b053f9df13b3cd994db46a29b3c') in 0.236519 seconds 
+  Time since last request: 0.000023 seconds.
+  path: Assets/調整比例過/裝飾素材/圍欄/圍欄_10.prefab
+  artifactKey: Guid(c39e92aecf8ccf549ae6f1780b18c7cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調整比例過/裝飾素材/圍欄/圍欄_10.prefab using Guid(c39e92aecf8ccf549ae6f1780b18c7cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29cdb706dc5967fa7e2ab4a636648a7d') in 0.015743 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/調整比例後素材/建築 基本素材_3.prefab
-  artifactKey: Guid(f77b7bee0bc15cb4e9f256e79bacc0f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/調整比例後素材/建築 基本素材_3.prefab using Guid(f77b7bee0bc15cb4e9f256e79bacc0f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b957572ae94f8a109d9b19993aa29684') in 0.032214 seconds 
+  Time since last request: 0.000016 seconds.
+  path: Assets/調整比例過/裝飾素材/圍欄/圍欄_3.prefab
+  artifactKey: Guid(69fbdefb403d0be4282ef59044e50ae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調整比例過/裝飾素材/圍欄/圍欄_3.prefab using Guid(69fbdefb403d0be4282ef59044e50ae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46f83192cf5467dceb7e24b17d4628a9') in 0.015956 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000082 seconds.
-  path: Assets/調整比例後素材/小型住宅_2.prefab
-  artifactKey: Guid(b415c70e06cce8344a9034ec36793aa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/調整比例後素材/小型住宅_2.prefab using Guid(b415c70e06cce8344a9034ec36793aa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49fed60355d14e892ab456fd5a21ed7b') in 0.033816 seconds 
+  Time since last request: 0.000025 seconds.
+  path: Assets/調整比例過/裝飾素材/圍欄/圍欄_6.prefab
+  artifactKey: Guid(71bbca28e00571349af771de6b39b25d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調整比例過/裝飾素材/圍欄/圍欄_6.prefab using Guid(71bbca28e00571349af771de6b39b25d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a9591dea28c6874d63ad15ba51de7c5') in 0.016462 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/調整比例後素材/辦公類建築_1.prefab
-  artifactKey: Guid(46d69bef376fe2b4bb2f4ef895151a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/調整比例後素材/辦公類建築_1.prefab using Guid(46d69bef376fe2b4bb2f4ef895151a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0edab6f7b03a55be7ff309365c210d57') in 0.027675 seconds 
+  Time since last request: 0.000024 seconds.
+  path: Assets/調整比例過/裝飾素材/圍欄/圍欄_1.prefab
+  artifactKey: Guid(6a515cd7828e647438199e8af8127ac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調整比例過/裝飾素材/圍欄/圍欄_1.prefab using Guid(6a515cd7828e647438199e8af8127ac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d22478f684cf13776ec7f14dc93fe1e') in 0.019028 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000089 seconds.
-  path: Assets/調整比例後素材/小型住宅_1.prefab
-  artifactKey: Guid(99ba22fd38a81494a8164b28ba5db5bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/調整比例後素材/小型住宅_1.prefab using Guid(99ba22fd38a81494a8164b28ba5db5bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29639fd21e773cd8804ceae66284f1f3') in 0.024799 seconds 
+  Time since last request: 0.000015 seconds.
+  path: Assets/調整比例過/裝飾素材/圍欄/圍欄_11.prefab
+  artifactKey: Guid(53dfb7dcfd0fa0343851b601b7dfb434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調整比例過/裝飾素材/圍欄/圍欄_11.prefab using Guid(53dfb7dcfd0fa0343851b601b7dfb434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d7ee6c25315db785afaa3f39be86166') in 0.016467 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/調整比例後素材/建築 基本素材_1.prefab
-  artifactKey: Guid(2f7011258ee1d5e48be6beadd7d12212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/調整比例後素材/建築 基本素材_1.prefab using Guid(2f7011258ee1d5e48be6beadd7d12212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0ec5a81ff7b9102409b50cf5441d84a') in 0.020226 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.389723 seconds.
-  path: Assets/調整比例後素材/商業大樓2_0.prefab
-  artifactKey: Guid(7da95d7c6656cba44818b339cf045b26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/調整比例後素材/商業大樓2_0.prefab using Guid(7da95d7c6656cba44818b339cf045b26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4d922c4ebb5443002b3624cb9143bc4') in 0.028063 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/調整比例後素材/商業大樓_1.prefab
-  artifactKey: Guid(02f2aedbcd8a87b45b172caad7060662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/調整比例後素材/商業大樓_1.prefab using Guid(02f2aedbcd8a87b45b172caad7060662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f8aedc7f9eb381bb6858abad625e7a8') in 0.031028 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 242.659143 seconds.
-  path: Assets/調整比例後素材/裝飾素材/圍欄_1.prefab
-  artifactKey: Guid(45021ed5a28022a4d93458d87dd29a55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/調整比例後素材/裝飾素材/圍欄_1.prefab using Guid(45021ed5a28022a4d93458d87dd29a55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8b633cd4150891fec3cb9562a459791') in 0.053637 seconds 
+  Time since last request: 0.000017 seconds.
+  path: Assets/調整比例過/裝飾素材/圍欄/圍欄_8.prefab
+  artifactKey: Guid(1530d618807eb0142b3cff36bba23138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調整比例過/裝飾素材/圍欄/圍欄_8.prefab using Guid(1530d618807eb0142b3cff36bba23138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70a51620fc43eaebb19acfb031e4cca1') in 0.019352 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

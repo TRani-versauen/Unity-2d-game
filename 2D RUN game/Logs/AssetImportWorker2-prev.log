@@ -15,7 +15,7 @@ C:/Users/17G319S02/Desktop/Unity-2d-game/2D RUN game
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-64713
+54945
 Successfully changed project path to: C:/Users/17G319S02/Desktop/Unity-2d-game/2D RUN game
 C:/Users/17G319S02/Desktop/Unity-2d-game/2D RUN game
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/17G319S02/Desktop/Unity-2d-game/2D RUN game
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 82.83 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 97.72 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.0f1 (6eacc8284459)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/Resources/UnitySubsystems
@@ -63,79 +63,79 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56028
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56168
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005317 seconds.
+Registered in 0.005245 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 82.60 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 83.07 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.592 seconds
+- Completed reload, in  0.554 seconds
 Domain Reload Profiling:
-	ReloadAssembly (592ms)
-		BeginReloadAssembly (65ms)
+	ReloadAssembly (554ms)
+		BeginReloadAssembly (60ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (428ms)
-			LoadAssemblies (63ms)
+		EndReloadAssembly (396ms)
+			LoadAssemblies (58ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (95ms)
+			SetupTypeCache (93ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (25ms)
-			SetupLoadedEditorAssemblies (261ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (233ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (83ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (114ms)
-				ProcessInitializeOnLoadMethodAttributes (55ms)
+				ProcessInitializeOnLoadAttributes (102ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006980 seconds.
+Registered in 0.004499 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\17G319S02\Desktop\Unity-2d-game\2D RUN game\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Symbol file LoadedFromMemory doesn't match image C:\Users\17G319S02\Desktop\Unity-2d-game\2D RUN game\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 92.99 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 82.78 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.083 seconds
+- Completed reload, in  0.969 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1084ms)
-		BeginReloadAssembly (110ms)
+	ReloadAssembly (970ms)
+		BeginReloadAssembly (101ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (18ms)
-		EndReloadAssembly (868ms)
-			LoadAssemblies (86ms)
+		EndReloadAssembly (762ms)
+			LoadAssemblies (83ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (215ms)
+			SetupTypeCache (202ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (76ms)
-			SetupLoadedEditorAssemblies (434ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (391ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (93ms)
-				BeforeProcessingInitializeOnLoad (91ms)
-				ProcessInitializeOnLoadAttributes (203ms)
-				ProcessInitializeOnLoadMethodAttributes (35ms)
+				RefreshPlugins (83ms)
+				BeforeProcessingInitializeOnLoad (82ms)
+				ProcessInitializeOnLoadAttributes (184ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
 				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -143,13 +143,13 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.65 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.63 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3917 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 34 unused Assets / (55.6 KB). Loaded Objects now: 4376.
 Memory consumption went from 147.0 MB to 146.9 MB.
-Total: 3.447900 ms (FindLiveObjects: 0.342500 ms CreateObjectMapping: 0.361400 ms MarkObjects: 2.671200 ms  DeleteObjects: 0.071600 ms)
+Total: 3.137200 ms (FindLiveObjects: 0.269100 ms CreateObjectMapping: 0.338800 ms MarkObjects: 2.454100 ms  DeleteObjects: 0.074600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -163,217 +163,79 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 172971.218784 seconds.
-  path: Assets/調整比例過/裝飾素材/燈/燈_18.prefab
-  artifactKey: Guid(0b33907ea6b95894b94ada7f49d158f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/調整比例過/裝飾素材/燈/燈_18.prefab using Guid(0b33907ea6b95894b94ada7f49d158f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95a43f197e0f8c964769e09a5f8f4eb7') in 0.119884 seconds 
+  Time since last request: 177210.591649 seconds.
+  path: Assets/TRani/crouch/聚光燈動畫跑步000.png
+  artifactKey: Guid(8f1437aec2a0c9e4eb01345c7553ce88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TRani/crouch/聚光燈動畫跑步000.png using Guid(8f1437aec2a0c9e4eb01345c7553ce88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9c1bd0280a2c997e2334559e260cf13') in 0.116976 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.338120 seconds.
+  path: Assets/TRani/jump/聚光燈動畫跳躍000.png
+  artifactKey: Guid(9da89497cc055ca4ca270afa962c760b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TRani/jump/聚光燈動畫跳躍000.png using Guid(9da89497cc055ca4ca270afa962c760b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea69fbc0447531d4d94a2e81fe0b6182') in 0.019475 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000019 seconds.
-  path: Assets/調整比例過/裝飾素材/燈/燈_9.prefab
-  artifactKey: Guid(736aeefca9ad9864a80ece5c4f7554b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/調整比例過/裝飾素材/燈/燈_9.prefab using Guid(736aeefca9ad9864a80ece5c4f7554b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7997cc80d4b93c9542313f4828a53a5d') in 0.032912 seconds 
+  path: Assets/TRani/jump/聚光燈動畫跳躍003.png
+  artifactKey: Guid(f27d38d57911f7c44883f6897eb52792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TRani/jump/聚光燈動畫跳躍003.png using Guid(f27d38d57911f7c44883f6897eb52792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd864c7fd022b4ca21669567b97bd6a99') in 0.018390 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/調整比例過/裝飾素材/燈/燈_14.prefab
-  artifactKey: Guid(a1e0091d4e01182448a0d5f89a470fbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/調整比例過/裝飾素材/燈/燈_14.prefab using Guid(a1e0091d4e01182448a0d5f89a470fbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe95bb2f0c692d57d648b6578fb8a2f4') in 0.024757 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/調整比例過/裝飾素材/燈/燈_13.prefab
-  artifactKey: Guid(ade0dae2fb56d0149aed6c4346b01a2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/調整比例過/裝飾素材/燈/燈_13.prefab using Guid(ade0dae2fb56d0149aed6c4346b01a2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78a1dcf0fb7b3086a84368509d289349') in 0.022406 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/調整比例過/裝飾素材/燈/燈_21.prefab
-  artifactKey: Guid(1a2c99cf6a708fb4c92ad64c0454a48a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/調整比例過/裝飾素材/燈/燈_21.prefab using Guid(1a2c99cf6a708fb4c92ad64c0454a48a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0660ed550d233429f5fdf3036e1e8c4') in 0.027980 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/調整比例過/裝飾素材/燈/燈_5.prefab
-  artifactKey: Guid(c25a8c51a09090741a861601a57dd9bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/調整比例過/裝飾素材/燈/燈_5.prefab using Guid(c25a8c51a09090741a861601a57dd9bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e8ee8a7dce527a30cfb65593a739ea3') in 0.028428 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.586789 seconds.
-  path: Assets/調整比例過/裝飾素材/水管
-  artifactKey: Guid(10461e219af25aa42a3661fa3f9c20d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/調整比例過/裝飾素材/水管 using Guid(10461e219af25aa42a3661fa3f9c20d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9639a0efd785a81cb4996d1840048ac4') in 0.006629 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.029344 seconds.
-  path: Assets/調整比例過/裝飾素材/水管/水管_0.prefab
-  artifactKey: Guid(ca902985647dfcf42b335d46d01072e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/調整比例過/裝飾素材/水管/水管_0.prefab using Guid(ca902985647dfcf42b335d46d01072e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7667ebef45320fde7a585e768f1fa851') in 0.028177 seconds 
+  Time since last request: 0.000016 seconds.
+  path: Assets/TRani/jump/聚光燈動畫跳躍011.png
+  artifactKey: Guid(9748b28b8d39d794a892baed89987b69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TRani/jump/聚光燈動畫跳躍011.png using Guid(9748b28b8d39d794a892baed89987b69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aa0c33fd93e752ac945a07681f30fab') in 0.020357 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000018 seconds.
-  path: Assets/調整比例過/裝飾素材/水管/水管_7.prefab
-  artifactKey: Guid(df288f5bbfd02554c99f3b3d9a2e2155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/調整比例過/裝飾素材/水管/水管_7.prefab using Guid(df288f5bbfd02554c99f3b3d9a2e2155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2171a40214c223e66ba7d0efbe30237') in 0.032423 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/調整比例過/裝飾素材/水管/水管_8.prefab
-  artifactKey: Guid(faab32ef01306164499a0436fb27b16f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/調整比例過/裝飾素材/水管/水管_8.prefab using Guid(faab32ef01306164499a0436fb27b16f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae6d5c3c3ca9196182a48634a11f0c54') in 0.023740 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.620837 seconds.
-  path: Assets/調整比例過/裝飾素材/特殊物件/特殊物件_0.prefab
-  artifactKey: Guid(2b9621f25f8b02941b6473944049c788) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/調整比例過/裝飾素材/特殊物件/特殊物件_0.prefab using Guid(2b9621f25f8b02941b6473944049c788) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4e0c800f0c05ae3ea3d8c1c189f8fad') in 0.024559 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/調整比例過/裝飾素材/特殊物件/特殊物件_10.prefab
-  artifactKey: Guid(bb4a0f8175f374c4baa69ff96c438a21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/調整比例過/裝飾素材/特殊物件/特殊物件_10.prefab using Guid(bb4a0f8175f374c4baa69ff96c438a21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3d87d56e11f84993a2c725d5686e746') in 0.025388 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/調整比例過/裝飾素材/特殊物件/特殊物件_7.prefab
-  artifactKey: Guid(898a84f26d7ad2749a3cdbc67109573c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/調整比例過/裝飾素材/特殊物件/特殊物件_7.prefab using Guid(898a84f26d7ad2749a3cdbc67109573c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '041f5f683338615b49cc01055460a5ee') in 0.027587 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/調整比例過/裝飾素材/特殊物件/特殊物件_8.prefab
-  artifactKey: Guid(bd6a9a2f417b6f04eb1ad1770819af57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/調整比例過/裝飾素材/特殊物件/特殊物件_8.prefab using Guid(bd6a9a2f417b6f04eb1ad1770819af57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d9a8dcb34b2571144026a980cdbc7d6') in 0.024577 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.561149 seconds.
-  path: Assets/調整比例過/裝飾素材/窗戶/窗戶_0.prefab
-  artifactKey: Guid(c53164aa2619cae4da0e915e965b0ebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/調整比例過/裝飾素材/窗戶/窗戶_0.prefab using Guid(c53164aa2619cae4da0e915e965b0ebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22362ad9749cc9c76aa7398479dc8222') in 0.028385 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/調整比例過/裝飾素材/窗戶/窗戶_3.prefab
-  artifactKey: Guid(cdda5c4218234414c83c788a7bc6e5bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/調整比例過/裝飾素材/窗戶/窗戶_3.prefab using Guid(cdda5c4218234414c83c788a7bc6e5bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b5bb8d578c50e2038f728d4c3d63920') in 0.025919 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/調整比例過/裝飾素材/窗戶/窗戶_12.prefab
-  artifactKey: Guid(ee69f808e0bd7784a9b23a852a4f3915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/調整比例過/裝飾素材/窗戶/窗戶_12.prefab using Guid(ee69f808e0bd7784a9b23a852a4f3915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6ceddb68059dbea768d56835f7a95ce') in 0.025385 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000105 seconds.
-  path: Assets/調整比例過/裝飾素材/窗戶/窗戶_11.prefab
-  artifactKey: Guid(030fec1b614806c43bcacc5f8d17b97c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/調整比例過/裝飾素材/窗戶/窗戶_11.prefab using Guid(030fec1b614806c43bcacc5f8d17b97c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2761088e3b8e9fe42c4638b52913c223') in 0.028300 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/調整比例過/裝飾素材/窗戶/窗戶_10.prefab
-  artifactKey: Guid(a0b9ffdab7a7ff24983f6f6dd06fb510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/調整比例過/裝飾素材/窗戶/窗戶_10.prefab using Guid(a0b9ffdab7a7ff24983f6f6dd06fb510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38b8414a2f4e022f6870c57d2de52a09') in 0.027233 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.571434 seconds.
-  path: Assets/調整比例過/裝飾素材/看板/看板_0.prefab
-  artifactKey: Guid(cc10d36b44adeb843a94d2c9bd9d5581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/調整比例過/裝飾素材/看板/看板_0.prefab using Guid(cc10d36b44adeb843a94d2c9bd9d5581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33fb58d5eec255893bd1b729fa00b5b5') in 0.017667 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/調整比例過/裝飾素材/看板/看板_13.prefab
-  artifactKey: Guid(7b63261606f71dd44a96c9811a5e181a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/調整比例過/裝飾素材/看板/看板_13.prefab using Guid(7b63261606f71dd44a96c9811a5e181a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8e4c264096ae662c264d74838934188') in 0.019163 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/調整比例過/裝飾素材/看板/看板_12.prefab
-  artifactKey: Guid(077697188fbcdd340b47d878c0dde849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/調整比例過/裝飾素材/看板/看板_12.prefab using Guid(077697188fbcdd340b47d878c0dde849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '688f63753166d582a90df2dbf2af96f3') in 0.017865 seconds 
+  path: Assets/TRani/jump/聚光燈動畫跳躍010.png
+  artifactKey: Guid(1c10c776f07010d48922bb6298285338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TRani/jump/聚光燈動畫跳躍010.png using Guid(1c10c776f07010d48922bb6298285338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5879dd74ccbcd78eebe0f55c1ea9d878') in 0.018136 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000023 seconds.
-  path: Assets/調整比例過/裝飾素材/看板/看板_14.prefab
-  artifactKey: Guid(06f223c8b874d7043a0479b8aca38de9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/調整比例過/裝飾素材/看板/看板_14.prefab using Guid(06f223c8b874d7043a0479b8aca38de9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5f84d0358bb1f495de37d3a4a58b716') in 0.018823 seconds 
+  path: Assets/TRani/jump/聚光燈動畫跳躍012.png
+  artifactKey: Guid(1cffc5a3f2a86ba4ca9a7b9d4657648f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TRani/jump/聚光燈動畫跳躍012.png using Guid(1cffc5a3f2a86ba4ca9a7b9d4657648f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a93cd209dea87439ade6c324a6b5a7d') in 0.019019 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/調整比例過/裝飾素材/看板/看板_11.prefab
-  artifactKey: Guid(af24d6580faa2194e96c931754f3a5ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/調整比例過/裝飾素材/看板/看板_11.prefab using Guid(af24d6580faa2194e96c931754f3a5ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '514e81a71b2ea3f013a3155bf232fc4d') in 0.016919 seconds 
+  Time since last request: 3.395591 seconds.
+  path: Assets/TRani/slide/聚光燈動畫滑行000.png
+  artifactKey: Guid(69090d0684981e541b089af988d7332b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TRani/slide/聚光燈動畫滑行000.png using Guid(69090d0684981e541b089af988d7332b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9fd736348840cde56c187669d019bb1') in 0.021400 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000020 seconds.
-  path: Assets/調整比例過/裝飾素材/看板/看板_17.prefab
-  artifactKey: Guid(17ceace4e4861e444bc8f5c7b61440fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/調整比例過/裝飾素材/看板/看板_17.prefab using Guid(17ceace4e4861e444bc8f5c7b61440fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8eb1692731c33fe89f63355136e5a6d1') in 0.017250 seconds 
+  path: Assets/TRani/slide/聚光燈動畫滑行011.png
+  artifactKey: Guid(53b33fb0694209944bce105e462ae286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TRani/slide/聚光燈動畫滑行011.png using Guid(53b33fb0694209944bce105e462ae286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '371d20cb7f2d93c3b747b33406720ac4') in 0.022816 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000028 seconds.
-  path: Assets/調整比例過/裝飾素材/看板/看板_9.prefab
-  artifactKey: Guid(5af721dce9203e645a0055e788b6a17b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/調整比例過/裝飾素材/看板/看板_9.prefab using Guid(5af721dce9203e645a0055e788b6a17b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97a2e79303fd4aefc61ede5eff7ac3e5') in 0.014394 seconds 
+  path: Assets/TRani/slide/聚光燈動畫滑行009.png
+  artifactKey: Guid(5a9ffb41f030a4d4aa994f410fae2f0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TRani/slide/聚光燈動畫滑行009.png using Guid(5a9ffb41f030a4d4aa994f410fae2f0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd4bc73719c1846ce800f5283c03ea90') in 0.025068 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.469690 seconds.
-  path: Assets/調整比例過/裝飾素材/屋頂部件/屋頂部件_0.prefab
-  artifactKey: Guid(58dfce3909154344db69994d2732e8d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/調整比例過/裝飾素材/屋頂部件/屋頂部件_0.prefab using Guid(58dfce3909154344db69994d2732e8d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98a957fd8ca5f1e2dfb038916b79cf4f') in 0.022826 seconds 
+  Time since last request: 0.000026 seconds.
+  path: Assets/TRani/slide/聚光燈動畫滑行003.png
+  artifactKey: Guid(9db97c858dca30945afe5bce65fe7624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TRani/slide/聚光燈動畫滑行003.png using Guid(9db97c858dca30945afe5bce65fe7624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f097d9ad4f90e7a798ebb60eab47c97') in 0.021222 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/調整比例過/裝飾素材/屋頂部件/屋頂部件_6.prefab
-  artifactKey: Guid(796159f18ff42b642ba2886e7a0d749b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/調整比例過/裝飾素材/屋頂部件/屋頂部件_6.prefab using Guid(796159f18ff42b642ba2886e7a0d749b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a43f30db8ba40d0301fd2fb098a7a1ec') in 0.023592 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/調整比例過/裝飾素材/屋頂部件/屋頂部件_9.prefab
-  artifactKey: Guid(7d7fe509a56181a498f82fab161d1e5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/調整比例過/裝飾素材/屋頂部件/屋頂部件_9.prefab using Guid(7d7fe509a56181a498f82fab161d1e5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab1e5cd132a6858b232a88149b0969dd') in 0.026361 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/調整比例過/裝飾素材/屋頂部件/屋頂部件_5.prefab
-  artifactKey: Guid(daea14c81133d524c9147ffa1c5db758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/調整比例過/裝飾素材/屋頂部件/屋頂部件_5.prefab using Guid(daea14c81133d524c9147ffa1c5db758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '644353be4599d5e543bb6639ec1f4a41') in 0.021946 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.455539 seconds.
-  path: Assets/調整比例過/裝飾素材/鷹架/鷹架_0.prefab
-  artifactKey: Guid(d65e7657bd6375240921e3fc351c97d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/調整比例過/裝飾素材/鷹架/鷹架_0.prefab using Guid(d65e7657bd6375240921e3fc351c97d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c77b8fdb2bba13d2a61222c77fd071ce') in 0.029572 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/調整比例過/裝飾素材/鷹架/鷹架_14.prefab
-  artifactKey: Guid(a302b707745e1cc4ab4b05bd82c1f15a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/調整比例過/裝飾素材/鷹架/鷹架_14.prefab using Guid(a302b707745e1cc4ab4b05bd82c1f15a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebe101f3eea686c54a5524ac81643df1') in 0.029747 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/調整比例過/裝飾素材/鷹架/鷹架_4.prefab
-  artifactKey: Guid(aaf3699431db0ac4d8e8ce8d46ee08f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/調整比例過/裝飾素材/鷹架/鷹架_4.prefab using Guid(aaf3699431db0ac4d8e8ce8d46ee08f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68e6ada42d7ce6b4a64924c9f9931194') in 0.025906 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/調整比例過/裝飾素材/鷹架/鷹架_3.prefab
-  artifactKey: Guid(9745460069e69f54d9a6af6e51b84f1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/調整比例過/裝飾素材/鷹架/鷹架_3.prefab using Guid(9745460069e69f54d9a6af6e51b84f1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf0d5e6a04a8b273e21770bae985928f') in 0.028102 seconds 
+  Time since last request: 2.872343 seconds.
+  path: Assets/TRani/stand/聚光燈動畫靜止000.png
+  artifactKey: Guid(7bcaa7415eb9a8e408c5d670db2ac2f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TRani/stand/聚光燈動畫靜止000.png using Guid(7bcaa7415eb9a8e408c5d670db2ac2f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24f0fa68c376d4bfd103331e8dbc8f3c') in 0.019953 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000023 seconds.
-  path: Assets/調整比例過/裝飾素材/鷹架/鷹架_7.prefab
-  artifactKey: Guid(b1b5147a472817d4abcbd9087e33bb19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/調整比例過/裝飾素材/鷹架/鷹架_7.prefab using Guid(b1b5147a472817d4abcbd9087e33bb19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de5af1230c2c0a452c2b7a1073c7a963') in 0.027958 seconds 
+  path: Assets/TRani/stand/聚光燈動畫靜止006.png
+  artifactKey: Guid(5db223567f7e8d740878bbde6cb6996e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TRani/stand/聚光燈動畫靜止006.png using Guid(5db223567f7e8d740878bbde6cb6996e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea6ddc3a320cdf6aaae8e1938e382378') in 0.019858 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/調整比例過/裝飾素材/鷹架/鷹架_12.prefab
-  artifactKey: Guid(921bc37dfe57e9b4196cda7dc44462cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/調整比例過/裝飾素材/鷹架/鷹架_12.prefab using Guid(921bc37dfe57e9b4196cda7dc44462cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b2a604b2193091fb5c03ccd6492e7ae') in 0.018653 seconds 
+  Time since last request: 0.000023 seconds.
+  path: Assets/TRani/stand/聚光燈動畫靜止004.png
+  artifactKey: Guid(cdef2acca20b9b746a908a6578a3877f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TRani/stand/聚光燈動畫靜止004.png using Guid(cdef2acca20b9b746a908a6578a3877f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '805449fb9353b0e6034aa5d64c6d3ea9') in 0.016875 seconds 

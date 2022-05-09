@@ -1,23 +1,23 @@
 Using pre-set license
-Built from '2021.3/staging' branch; Version is '2021.3.1f1 (3b70a0754835) revision 3895456'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19044) 64bit Core' Language: 'zh' Physical Memory: 16061 MB
+Built from '2021.3/staging' branch; Version is '2021.3.0f1 (6eacc8284459) revision 7253192'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.18363) 64bit Professional' Language: 'zh' Physical Memory: 32584 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2021.3.1f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2021.3.0f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker1
 -projectPath
-C:/Users/user/Desktop/Final Project/Unity-2d-game/2D RUN game
+C:/Users/17G319S02/Desktop/Unity-2d-game/2D RUN game
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-54479
-Successfully changed project path to: C:/Users/user/Desktop/Final Project/Unity-2d-game/2D RUN game
-C:/Users/user/Desktop/Final Project/Unity-2d-game/2D RUN game
+54945
+Successfully changed project path to: C:/Users/17G319S02/Desktop/Unity-2d-game/2D RUN game
+C:/Users/17G319S02/Desktop/Unity-2d-game/2D RUN game
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,113 +47,115 @@ C:/Users/user/Desktop/Final Project/Unity-2d-game/2D RUN game
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 82.27 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 81.17 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 2021.3.1f1 (3b70a0754835)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/user/Desktop/Final Project/Unity-2d-game/2D RUN game/Assets
+Initialize engine version: 2021.3.0f1 (6eacc8284459)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/17G319S02/Desktop/Unity-2d-game/2D RUN game/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3050 Laptop GPU (ID=0x25a2)
+    Renderer: NVIDIA GeForce RTX 2070 Super with Max-Q Design (ID=0x1e91)
     Vendor:   NVIDIA
-    VRAM:     3991 MB
-    Driver:   30.0.14.9649
+    VRAM:     8011 MB
+    Driver:   26.21.14.4183
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56268
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56568
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005377 seconds.
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005163 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 85.40 ms, found 4 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 77.76 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.565 seconds
+- Completed reload, in  0.554 seconds
 Domain Reload Profiling:
-	ReloadAssembly (565ms)
-		BeginReloadAssembly (62ms)
+	ReloadAssembly (554ms)
+		BeginReloadAssembly (60ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (397ms)
-			LoadAssemblies (60ms)
+		EndReloadAssembly (399ms)
+			LoadAssemblies (58ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
 			SetupTypeCache (92ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (24ms)
-			SetupLoadedEditorAssemblies (233ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (235ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (85ms)
+				RefreshPlugins (78ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (100ms)
-				ProcessInitializeOnLoadMethodAttributes (40ms)
+				ProcessInitializeOnLoadAttributes (109ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006121 seconds.
+Registered in 0.004668 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\user\Desktop\Final Project\Unity-2d-game\2D RUN game\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\17G319S02\Desktop\Unity-2d-game\2D RUN game\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory doesn't match image C:\Users\user\Desktop\Final Project\Unity-2d-game\2D RUN game\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\17G319S02\Desktop\Unity-2d-game\2D RUN game\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 85.50 ms, found 4 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 80.47 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.025 seconds
+- Completed reload, in  0.968 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1026ms)
-		BeginReloadAssembly (97ms)
+	ReloadAssembly (969ms)
+		BeginReloadAssembly (98ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (17ms)
-		EndReloadAssembly (818ms)
-			LoadAssemblies (91ms)
+		EndReloadAssembly (770ms)
+			LoadAssemblies (75ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (203ms)
+			SetupTypeCache (199ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (55ms)
-			SetupLoadedEditorAssemblies (419ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (397ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (86ms)
-				BeforeProcessingInitializeOnLoad (82ms)
-				ProcessInitializeOnLoadAttributes (197ms)
-				ProcessInitializeOnLoadMethodAttributes (43ms)
-				AfterProcessingInitializeOnLoad (7ms)
+				RefreshPlugins (81ms)
+				BeforeProcessingInitializeOnLoad (83ms)
+				ProcessInitializeOnLoadAttributes (187ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.94 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.61 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3913 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 34 unused Assets / (55.7 KB). Loaded Objects now: 4372.
+Unloading 3917 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (55.6 KB). Loaded Objects now: 4376.
 Memory consumption went from 147.0 MB to 146.9 MB.
-Total: 2.953700 ms (FindLiveObjects: 0.331100 ms CreateObjectMapping: 0.147600 ms MarkObjects: 2.397600 ms  DeleteObjects: 0.076000 ms)
+Total: 3.310600 ms (FindLiveObjects: 0.494400 ms CreateObjectMapping: 0.324300 ms MarkObjects: 2.424200 ms  DeleteObjects: 0.067100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -161,29 +163,127 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 978555.151388 seconds.
-  path: Assets/png anim/run/聚光燈動畫跑步001.png
-  artifactKey: Guid(a334c1202cb3f9543a0855551d776f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/png anim/run/聚光燈動畫跑步001.png using Guid(a334c1202cb3f9543a0855551d776f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c89ed07040441b8bc78c70b333189c1e') in 0.137103 seconds 
+  Time since last request: 177204.801481 seconds.
+  path: Assets/TRani/climb/聚光燈動畫跑步001.png
+  artifactKey: Guid(44e17b36edf49984eb74be2014cca894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TRani/climb/聚光燈動畫跑步001.png using Guid(44e17b36edf49984eb74be2014cca894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c10d02a53dba2ffa4e7eafe36fff9ff') in 0.122248 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/TRani/climb/聚光燈動畫跑步007.png
+  artifactKey: Guid(4c2b11c734624de439214fa4cb650f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TRani/climb/聚光燈動畫跑步007.png using Guid(4c2b11c734624de439214fa4cb650f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8689560f99ad7928ca2f132c234a849') in 0.021263 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/TRani/climb/聚光燈動畫跑步002.png
+  artifactKey: Guid(2fb968316f275b24a80c17514374baad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TRani/climb/聚光燈動畫跑步002.png using Guid(2fb968316f275b24a80c17514374baad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86c7f7b90a60ebea0bf76ac59a3be8bc') in 0.018466 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TRani/climb/聚光燈動畫跑步010.png
+  artifactKey: Guid(0a4a58355885dea46b81976cee68471f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TRani/climb/聚光燈動畫跑步010.png using Guid(0a4a58355885dea46b81976cee68471f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67dafdeab9b64b8acdbded7a4e7c733c') in 0.021165 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.580675 seconds.
+  path: Assets/TRani/crouch/聚光燈動畫跑步002.png
+  artifactKey: Guid(0a02d4880814a024dbc73700a00fd018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TRani/crouch/聚光燈動畫跑步002.png using Guid(0a02d4880814a024dbc73700a00fd018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea77f17c3bbe42b320aec5892e02fdb3') in 0.020023 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/TRani/crouch/聚光燈動畫跑步007.png
+  artifactKey: Guid(7690306ee98905a458e9748b8e2e2241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TRani/crouch/聚光燈動畫跑步007.png using Guid(7690306ee98905a458e9748b8e2e2241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed7d72f944393b690aff67000fcbc8cb') in 0.021103 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/TRani/crouch/聚光燈動畫跑步004.png
+  artifactKey: Guid(87f1123d5a515294d98721a142b4c25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TRani/crouch/聚光燈動畫跑步004.png using Guid(87f1123d5a515294d98721a142b4c25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e69c598f95896c3a57e6ea2e89343a18') in 0.018706 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/TRani/crouch/聚光燈動畫跑步006.png
+  artifactKey: Guid(6ffae037c2164ab4b9939363642d1e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TRani/crouch/聚光燈動畫跑步006.png using Guid(6ffae037c2164ab4b9939363642d1e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f07ff82192674c8526337a23dd79c5b') in 0.015085 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TRani/crouch/聚光燈動畫跑步008.png
+  artifactKey: Guid(36f116b772f343f4781c79935455f1df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TRani/crouch/聚光燈動畫跑步008.png using Guid(36f116b772f343f4781c79935455f1df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cb03c81ef4454e350ae62ca27c3deed') in 0.016524 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.336726 seconds.
+  path: Assets/TRani/jump/聚光燈動畫跳躍002.png
+  artifactKey: Guid(3267beb74da35a245b177fb563bc1568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TRani/jump/聚光燈動畫跳躍002.png using Guid(3267beb74da35a245b177fb563bc1568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfb638b857068a50455fd12809fe3929') in 0.018075 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/TRani/jump/聚光燈動畫跳躍006.png
+  artifactKey: Guid(2d1b3105b74ba2842ad4bffffb99cd8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TRani/jump/聚光燈動畫跳躍006.png using Guid(2d1b3105b74ba2842ad4bffffb99cd8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '505dff68bfeea6d47c631269b27dc952') in 0.016892 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/TRani/jump/聚光燈動畫跳躍013.png
+  artifactKey: Guid(3cb544269e09a7b42911e34c93670f4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TRani/jump/聚光燈動畫跳躍013.png using Guid(3cb544269e09a7b42911e34c93670f4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afdaa79b7391b1ddbe9a98c98c0f1ccf') in 0.020810 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000026 seconds.
-  path: Assets/png anim/run/聚光燈動畫跑步002.png
-  artifactKey: Guid(9244870d3b7c9f74192b50f260518509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/png anim/run/聚光燈動畫跑步002.png using Guid(9244870d3b7c9f74192b50f260518509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddf15ed9629e36a650e8d23cc62ab27c') in 0.031409 seconds 
+  path: Assets/TRani/jump/聚光燈動畫跳躍014.png
+  artifactKey: Guid(6817d4f6ff311304090928327e896262) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TRani/jump/聚光燈動畫跳躍014.png using Guid(6817d4f6ff311304090928327e896262) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca70a81457d7ddb649c67afa3cc73c1b') in 0.018292 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/png anim/run/聚光燈動畫跑步005.png
-  artifactKey: Guid(c23e0088ff06cbe4399e9b1c87007eb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/png anim/run/聚光燈動畫跑步005.png using Guid(c23e0088ff06cbe4399e9b1c87007eb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28cdf0c23defee1a8a25afce7b80043e') in 0.022753 seconds 
+  Time since last request: 0.000021 seconds.
+  path: Assets/TRani/jump/聚光燈動畫跳躍007.png
+  artifactKey: Guid(86675ea94a212be4699f040ce2b97663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TRani/jump/聚光燈動畫跳躍007.png using Guid(86675ea94a212be4699f040ce2b97663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34b1a0eec8a3ef7fb0a7904338066f38') in 0.018679 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.899075 seconds.
-  path: Assets/png anim/run/聚光燈動畫跑步018.png
-  artifactKey: Guid(7a28b47e15f76c84a8bfbbb99cb4887c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/png anim/run/聚光燈動畫跑步018.png using Guid(7a28b47e15f76c84a8bfbbb99cb4887c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0311ca8c4cb0216b0a48ce185b59930') in 0.017739 seconds 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+  Time since last request: 0.000027 seconds.
+  path: Assets/TRani/jump/聚光燈動畫跳躍015.png
+  artifactKey: Guid(78620fdfdbf69a540aedcf9f891dabd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TRani/jump/聚光燈動畫跳躍015.png using Guid(78620fdfdbf69a540aedcf9f891dabd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff7abc78bb532515cb942172db67bc31') in 0.015239 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.373068 seconds.
+  path: Assets/TRani/slide/聚光燈動畫滑行002.png
+  artifactKey: Guid(3f8ebb4557f0ed5438ac1e5e7bc935ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TRani/slide/聚光燈動畫滑行002.png using Guid(3f8ebb4557f0ed5438ac1e5e7bc935ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7547ebf4430c416888b55939b70a0a3') in 0.020472 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TRani/slide/聚光燈動畫滑行007.png
+  artifactKey: Guid(e54d61a80d906344b9b39095aca4f2f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TRani/slide/聚光燈動畫滑行007.png using Guid(e54d61a80d906344b9b39095aca4f2f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8d2921aa3710805c7bd603db62f5754') in 0.025649 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/TRani/slide/聚光燈動畫滑行010.png
+  artifactKey: Guid(c07e70f84d2e8284dbac000356d634cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TRani/slide/聚光燈動畫滑行010.png using Guid(c07e70f84d2e8284dbac000356d634cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf3ce41cfc5ba02cf59e02eb34f53ead') in 0.021957 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/TRani/slide/聚光燈動畫滑行005.png
+  artifactKey: Guid(0819a9f61963a5b48bdc1442695aa237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TRani/slide/聚光燈動畫滑行005.png using Guid(0819a9f61963a5b48bdc1442695aa237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c41fcb823aead086ba7d9821c245e38') in 0.019997 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.871812 seconds.
+  path: Assets/TRani/stand/聚光燈動畫靜止002.png
+  artifactKey: Guid(5707a8a13a9518949ae96c73a4248aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TRani/stand/聚光燈動畫靜止002.png using Guid(5707a8a13a9518949ae96c73a4248aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69687ea412aa745a34fd6f87ca3fd07a') in 0.018623 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/TRani/stand/聚光燈動畫靜止005.png
+  artifactKey: Guid(a8d2bbcb9c4d7b14bb1ec4262a9c666f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TRani/stand/聚光燈動畫靜止005.png using Guid(a8d2bbcb9c4d7b14bb1ec4262a9c666f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a945205ffc26501a9899240ffaa8d32d') in 0.021255 seconds 

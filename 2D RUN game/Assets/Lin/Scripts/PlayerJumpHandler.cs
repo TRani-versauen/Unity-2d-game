@@ -12,7 +12,7 @@ namespace Lin
         [SerializeField]
         private PlayerInputHandler inputHandler = null;
 
-        [HideInInspector]
+        //[HideInInspector]
         public bool IsGround = false;
 
         [SerializeField]
@@ -40,9 +40,11 @@ namespace Lin
 
         private bool detectGround() 
         {
-            Physics2D.OverlapCircleNonAlloc(footTransform.position, detectFloorRange, collider2Ds, floorLayer);
+            collider2Ds = new Collider2D[0];
 
-            return collider2Ds.Length > 0;
+            var collideList = Physics2D.OverlapCircleAll(footTransform.position, detectFloorRange, floorLayer);
+            
+            return collideList.Length > 0;
         }
 
         private void OnDrawGizmosSelected()

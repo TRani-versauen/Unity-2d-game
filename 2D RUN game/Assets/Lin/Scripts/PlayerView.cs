@@ -14,6 +14,13 @@ namespace Lin
         [SerializeField]
         private Animator playerAnimator = null;
 
+        Vector2 startColliderSize = Vector2.zero;
+
+        private void Start()
+        {
+            startColliderSize = playerCollider.size;
+        }
+
         public Vector2 Velocity
         {
             get => playerRigidbody.velocity;
@@ -27,6 +34,27 @@ namespace Lin
         {
             playerRigidbody.AddForce(force, forceMode);
         }
+
+        public void SetFullHeight()
+        {
+            playerCollider.size = new Vector2(startColliderSize.x, startColliderSize.y);
+        }
+
+        public void SetHalfHeight()
+        {
+            playerCollider.size = new Vector2(startColliderSize.x, startColliderSize.y / 2);
+        }
+
+        public void SetBool(string boolName, bool isOn)
+        {
+            playerAnimator.SetBool(boolName, isOn);
+        }
+
+        public void SetTrigger(string triggerName) 
+        {
+            playerAnimator.SetTrigger(triggerName);
+        }
+
     }
 }
 

@@ -15,7 +15,7 @@ C:/Users/17G319S02/Desktop/Unity-2d-game/2D RUN game
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-54945
+52653
 Successfully changed project path to: C:/Users/17G319S02/Desktop/Unity-2d-game/2D RUN game
 C:/Users/17G319S02/Desktop/Unity-2d-game/2D RUN game
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/17G319S02/Desktop/Unity-2d-game/2D RUN game
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 97.72 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 88.53 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.0f1 (6eacc8284459)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/Resources/UnitySubsystems
@@ -63,79 +63,79 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56168
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56976
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005245 seconds.
+Registered in 0.005092 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 83.07 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 83.92 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.554 seconds
+- Completed reload, in  0.592 seconds
 Domain Reload Profiling:
-	ReloadAssembly (554ms)
-		BeginReloadAssembly (60ms)
+	ReloadAssembly (593ms)
+		BeginReloadAssembly (61ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (396ms)
-			LoadAssemblies (58ms)
+		EndReloadAssembly (425ms)
+			LoadAssemblies (59ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (93ms)
+			SetupTypeCache (113ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (26ms)
-			SetupLoadedEditorAssemblies (233ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (242ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (83ms)
+				RefreshPlugins (84ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (102ms)
-				ProcessInitializeOnLoadMethodAttributes (39ms)
+				ProcessInitializeOnLoadAttributes (109ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004499 seconds.
+Registered in 0.005179 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\17G319S02\Desktop\Unity-2d-game\2D RUN game\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Symbol file LoadedFromMemory doesn't match image C:\Users\17G319S02\Desktop\Unity-2d-game\2D RUN game\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 82.78 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 79.79 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.969 seconds
+- Completed reload, in  0.992 seconds
 Domain Reload Profiling:
-	ReloadAssembly (970ms)
-		BeginReloadAssembly (101ms)
+	ReloadAssembly (993ms)
+		BeginReloadAssembly (103ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (18ms)
-		EndReloadAssembly (762ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (786ms)
 			LoadAssemblies (83ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (202ms)
+			SetupTypeCache (207ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (51ms)
-			SetupLoadedEditorAssemblies (391ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (409ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (83ms)
-				BeforeProcessingInitializeOnLoad (82ms)
-				ProcessInitializeOnLoadAttributes (184ms)
-				ProcessInitializeOnLoadMethodAttributes (32ms)
+				RefreshPlugins (80ms)
+				BeforeProcessingInitializeOnLoad (83ms)
+				ProcessInitializeOnLoadAttributes (190ms)
+				ProcessInitializeOnLoadMethodAttributes (46ms)
 				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -144,12 +144,12 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.63 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 0.64 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3917 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 34 unused Assets / (55.6 KB). Loaded Objects now: 4376.
 Memory consumption went from 147.0 MB to 146.9 MB.
-Total: 3.137200 ms (FindLiveObjects: 0.269100 ms CreateObjectMapping: 0.338800 ms MarkObjects: 2.454100 ms  DeleteObjects: 0.074600 ms)
+Total: 2.809700 ms (FindLiveObjects: 0.297800 ms CreateObjectMapping: 0.278300 ms MarkObjects: 2.169600 ms  DeleteObjects: 0.062900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -163,79 +163,157 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 177210.591649 seconds.
-  path: Assets/TRani/crouch/聚光燈動畫跑步000.png
-  artifactKey: Guid(8f1437aec2a0c9e4eb01345c7553ce88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TRani/crouch/聚光燈動畫跑步000.png using Guid(8f1437aec2a0c9e4eb01345c7553ce88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9c1bd0280a2c997e2334559e260cf13') in 0.116976 seconds 
+  Time since last request: 177323.776587 seconds.
+  path: Assets/TRani/stand/crouch (10).png
+  artifactKey: Guid(a2b47bed23a32534b9f8b176afc82ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TRani/stand/crouch (10).png using Guid(a2b47bed23a32534b9f8b176afc82ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0bfe15d7b7760bd60a3b6a3d5380fce') in 0.113297 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.338120 seconds.
-  path: Assets/TRani/jump/聚光燈動畫跳躍000.png
-  artifactKey: Guid(9da89497cc055ca4ca270afa962c760b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TRani/jump/聚光燈動畫跳躍000.png using Guid(9da89497cc055ca4ca270afa962c760b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea69fbc0447531d4d94a2e81fe0b6182') in 0.019475 seconds 
+  Time since last request: 16.396936 seconds.
+  path: Assets/TRani/slide/slide (1).png
+  artifactKey: Guid(a40199d3bcbdb694c983bc98fb341ac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TRani/slide/slide (1).png using Guid(a40199d3bcbdb694c983bc98fb341ac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e43722c86436f1ba59983205b7c27eb1') in 0.020337 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TRani/slide/slide (9).png
+  artifactKey: Guid(38a883fea3f7e4f4c8519e351ae5ee5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TRani/slide/slide (9).png using Guid(38a883fea3f7e4f4c8519e351ae5ee5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27413320cf4ed6e16615295628903648') in 0.020221 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/TRani/slide/slide (6).png
+  artifactKey: Guid(187a0f7a66f9f844cb30f502f5bc7d7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TRani/slide/slide (6).png using Guid(187a0f7a66f9f844cb30f502f5bc7d7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0876f08722fb60ef24e8407b2b282ef2') in 0.016623 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/TRani/slide/slide (10).png
+  artifactKey: Guid(5e381a0f390cc5e4181ef5166cc11cb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TRani/slide/slide (10).png using Guid(5e381a0f390cc5e4181ef5166cc11cb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4f8cc638050ff4368e64a5938a2574d') in 0.022095 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.161882 seconds.
+  path: Assets/TRani/jump/jump (1).png
+  artifactKey: Guid(6e9b5bda8ddfdc54e96e73cce1493755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TRani/jump/jump (1).png using Guid(6e9b5bda8ddfdc54e96e73cce1493755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68f8624f32e27f136c388926f2af126d') in 0.020893 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/TRani/jump/jump (13).png
+  artifactKey: Guid(0f247b4d9c96dc643a6b4a9d50c7732f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TRani/jump/jump (13).png using Guid(0f247b4d9c96dc643a6b4a9d50c7732f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cb315067bd345ed091c47564ef121ce') in 0.016695 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TRani/jump/jump (5).png
+  artifactKey: Guid(57ab9e8ef6f22144c946488f97059d39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TRani/jump/jump (5).png using Guid(57ab9e8ef6f22144c946488f97059d39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1cb5c1c8fb42fbf3c0d1bba4c8a7355') in 0.017316 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/TRani/jump/jump (11).png
+  artifactKey: Guid(2dc1d9e64907531488ca00180c1f1710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TRani/jump/jump (11).png using Guid(2dc1d9e64907531488ca00180c1f1710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff3601dfd5aea079ea6e9e2e15ebd852') in 0.016021 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TRani/jump/jump (4).png
+  artifactKey: Guid(8a4e1a00beec12243bb6c91f857a3758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TRani/jump/jump (4).png using Guid(8a4e1a00beec12243bb6c91f857a3758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdaed1de61364c1c1ae6b4718a816a4b') in 0.016033 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000019 seconds.
-  path: Assets/TRani/jump/聚光燈動畫跳躍003.png
-  artifactKey: Guid(f27d38d57911f7c44883f6897eb52792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TRani/jump/聚光燈動畫跳躍003.png using Guid(f27d38d57911f7c44883f6897eb52792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd864c7fd022b4ca21669567b97bd6a99') in 0.018390 seconds 
+  path: Assets/TRani/jump/jump (10).png
+  artifactKey: Guid(e73afc5ac779e3c47b3917098ccc415a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TRani/jump/jump (10).png using Guid(e73afc5ac779e3c47b3917098ccc415a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df9fe431706cb770fb3f7c7f717f3d07') in 0.015290 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/TRani/jump/聚光燈動畫跳躍011.png
-  artifactKey: Guid(9748b28b8d39d794a892baed89987b69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TRani/jump/聚光燈動畫跳躍011.png using Guid(9748b28b8d39d794a892baed89987b69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aa0c33fd93e752ac945a07681f30fab') in 0.020357 seconds 
+  Time since last request: 9.773836 seconds.
+  path: Assets/TRani/climb/climb (1).png
+  artifactKey: Guid(84a54ad250f46ef4eb1e293b2d6acfb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TRani/climb/climb (1).png using Guid(84a54ad250f46ef4eb1e293b2d6acfb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc452f2ac5b47791dd51d71e9a2d0d45') in 0.020232 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TRani/climb/climb (8).png
+  artifactKey: Guid(36148bef73c78df4ab3e4f3006bf66bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TRani/climb/climb (8).png using Guid(36148bef73c78df4ab3e4f3006bf66bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b93c0ec768caf7af119b1165799e827') in 0.017327 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/TRani/climb/climb (7).png
+  artifactKey: Guid(2958eaa7f52cfbe4ebcdfcecb8bba7c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TRani/climb/climb (7).png using Guid(2958eaa7f52cfbe4ebcdfcecb8bba7c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4671e4d3685c2f0bfa118491f5e44406') in 0.017807 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/TRani/climb/climb (11).png
+  artifactKey: Guid(b717b0b05afc6a84c8d24002e15e5b97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TRani/climb/climb (11).png using Guid(b717b0b05afc6a84c8d24002e15e5b97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '072861cf369cd310e94995eadd2c3025') in 0.015733 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.188723 seconds.
+  path: Assets/TRani/crouch/crouch (1).png
+  artifactKey: Guid(adea27069d6cd7b41bee2f19e27137b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TRani/crouch/crouch (1).png using Guid(adea27069d6cd7b41bee2f19e27137b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc7c58e30f165a1d360f7be4ce8428ce') in 0.021319 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000018 seconds.
-  path: Assets/TRani/jump/聚光燈動畫跳躍010.png
-  artifactKey: Guid(1c10c776f07010d48922bb6298285338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TRani/jump/聚光燈動畫跳躍010.png using Guid(1c10c776f07010d48922bb6298285338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5879dd74ccbcd78eebe0f55c1ea9d878') in 0.018136 seconds 
+  path: Assets/TRani/crouch/crouch (7).png
+  artifactKey: Guid(c1f3571476104c64cb0250a0834a79de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TRani/crouch/crouch (7).png using Guid(c1f3571476104c64cb0250a0834a79de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e4f835895f584e960d940d1f2056f01') in 0.014684 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/TRani/jump/聚光燈動畫跳躍012.png
-  artifactKey: Guid(1cffc5a3f2a86ba4ca9a7b9d4657648f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TRani/jump/聚光燈動畫跳躍012.png using Guid(1cffc5a3f2a86ba4ca9a7b9d4657648f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a93cd209dea87439ade6c324a6b5a7d') in 0.019019 seconds 
+  Time since last request: 0.000021 seconds.
+  path: Assets/TRani/crouch/crouch (6).png
+  artifactKey: Guid(fdb187e069b0f53468eed0e48918e307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TRani/crouch/crouch (6).png using Guid(fdb187e069b0f53468eed0e48918e307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cb31b796c9f94a90977465b52a36259') in 0.015152 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.395591 seconds.
-  path: Assets/TRani/slide/聚光燈動畫滑行000.png
-  artifactKey: Guid(69090d0684981e541b089af988d7332b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TRani/slide/聚光燈動畫滑行000.png using Guid(69090d0684981e541b089af988d7332b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9fd736348840cde56c187669d019bb1') in 0.021400 seconds 
+  Time since last request: 16.763400 seconds.
+  path: Assets/TRani/stand/New Folder
+  artifactKey: Guid(20a45395d83ba524781855b156ca2441) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TRani/stand/New Folder using Guid(20a45395d83ba524781855b156ca2441) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a64792efe6bdb19bb6f2d07ba2926d6') in 0.002516 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/TRani/slide/聚光燈動畫滑行011.png
-  artifactKey: Guid(53b33fb0694209944bce105e462ae286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TRani/slide/聚光燈動畫滑行011.png using Guid(53b33fb0694209944bce105e462ae286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '371d20cb7f2d93c3b747b33406720ac4') in 0.022816 seconds 
+  Time since last request: 5.525084 seconds.
+  path: Assets/TRani/run
+  artifactKey: Guid(e3323d7bf49e45e4fa577786c4a41cb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TRani/run using Guid(e3323d7bf49e45e4fa577786c4a41cb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49db297d48dced97ad3cb44f6e27a548') in 0.007047 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.307190 seconds.
+  path: Assets/TRani/run/run (1).png
+  artifactKey: Guid(446591923840541468c37139e5aeb63a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TRani/run/run (1).png using Guid(446591923840541468c37139e5aeb63a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4aadc5eb8b838437ff2500a221f624c4') in 0.019842 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TRani/run/run (14).png
+  artifactKey: Guid(7c8d6e5599d24f84ca441164949634d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TRani/run/run (14).png using Guid(7c8d6e5599d24f84ca441164949634d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5adf37356ce5cb1146505fcce6b03c87') in 0.020457 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000028 seconds.
-  path: Assets/TRani/slide/聚光燈動畫滑行009.png
-  artifactKey: Guid(5a9ffb41f030a4d4aa994f410fae2f0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TRani/slide/聚光燈動畫滑行009.png using Guid(5a9ffb41f030a4d4aa994f410fae2f0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd4bc73719c1846ce800f5283c03ea90') in 0.025068 seconds 
+  path: Assets/TRani/run/run (8).png
+  artifactKey: Guid(fbc2491e5a14d244fa1cf63a83088a61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TRani/run/run (8).png using Guid(fbc2491e5a14d244fa1cf63a83088a61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cafb90860b75bd6b3d4b357aa8f7d0f') in 0.019869 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/TRani/slide/聚光燈動畫滑行003.png
-  artifactKey: Guid(9db97c858dca30945afe5bce65fe7624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TRani/slide/聚光燈動畫滑行003.png using Guid(9db97c858dca30945afe5bce65fe7624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f097d9ad4f90e7a798ebb60eab47c97') in 0.021222 seconds 
+  Time since last request: 0.000027 seconds.
+  path: Assets/TRani/run/run (6).png
+  artifactKey: Guid(498ecfba389e35c48bf56f06acdbe589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TRani/run/run (6).png using Guid(498ecfba389e35c48bf56f06acdbe589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a1afa02adc88979253a7cf5b1e79b10') in 0.022333 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.872343 seconds.
-  path: Assets/TRani/stand/聚光燈動畫靜止000.png
-  artifactKey: Guid(7bcaa7415eb9a8e408c5d670db2ac2f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TRani/stand/聚光燈動畫靜止000.png using Guid(7bcaa7415eb9a8e408c5d670db2ac2f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24f0fa68c376d4bfd103331e8dbc8f3c') in 0.019953 seconds 
+  Time since last request: 0.000022 seconds.
+  path: Assets/TRani/run/run (13).png
+  artifactKey: Guid(35aba0fbc6d545748bbc0b43382da587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TRani/run/run (13).png using Guid(35aba0fbc6d545748bbc0b43382da587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '070170830df7a3cc0db4ef55b1f0e1fa') in 0.018549 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/TRani/stand/聚光燈動畫靜止006.png
-  artifactKey: Guid(5db223567f7e8d740878bbde6cb6996e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TRani/stand/聚光燈動畫靜止006.png using Guid(5db223567f7e8d740878bbde6cb6996e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea6ddc3a320cdf6aaae8e1938e382378') in 0.019858 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/TRani/stand/聚光燈動畫靜止004.png
-  artifactKey: Guid(cdef2acca20b9b746a908a6578a3877f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TRani/stand/聚光燈動畫靜止004.png using Guid(cdef2acca20b9b746a908a6578a3877f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '805449fb9353b0e6034aa5d64c6d3ea9') in 0.016875 seconds 
+  Time since last request: 0.000016 seconds.
+  path: Assets/TRani/run/run (15).png
+  artifactKey: Guid(4d91d3ac11bdc0540a2708d640e290c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TRani/run/run (15).png using Guid(4d91d3ac11bdc0540a2708d640e290c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbe9ca7d83d3f68d2ba2402930fc0ca1') in 0.020687 seconds 

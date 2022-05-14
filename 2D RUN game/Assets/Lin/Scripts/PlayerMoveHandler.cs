@@ -24,11 +24,11 @@ namespace Lin
 
             if(playerView.Velocity.x > 0)
             {
-                playerView.transform.localScale = new Vector2(1, 1);
+                playerView.transform.localScale = new Vector2(7, 7);
             }
             else if (playerView.Velocity.x < 0)
             {
-                playerView.transform.localScale = new Vector2(-1, 1);
+                playerView.transform.localScale = new Vector2(-7, 7);
             }
         }
     }

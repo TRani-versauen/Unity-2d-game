@@ -38,7 +38,7 @@ namespace Lin
         public void SetGravity(bool value)
         {
             playerRigidbody.velocity = value ? new Vector2(playerRigidbody.velocity.x, playerRigidbody.velocity.y) : new Vector2(playerRigidbody.velocity.x, 0);
-            playerRigidbody.gravityScale = value ? 2.5f : 0f;
+            playerRigidbody.gravityScale = value ? 2.5f * 7 : 0f;
         }
 
         public void SetFullHeight()

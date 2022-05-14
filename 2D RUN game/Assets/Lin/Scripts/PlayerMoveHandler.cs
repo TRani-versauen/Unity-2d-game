@@ -11,13 +11,16 @@ namespace Lin
         private PlayerView playerView = null;
         [SerializeField]
         private PlayerInputHandler inputHandler = null;
+        [SerializeField]
+        private PlayerJumpHandler jumpHandler = null;
 
         [SerializeField]
         private float walkSpeed = 5f;
 
         private void Update()
         {
-            playerView.Velocity = new Vector2(inputHandler.HorizontalInput * walkSpeed, playerView.Velocity.y);
+            if(!jumpHandler.IsKickWallJump)
+                playerView.Velocity = new Vector2(inputHandler.HorizontalInput * walkSpeed, playerView.Velocity.y);
 
             if(playerView.Velocity.x > 0)
             {

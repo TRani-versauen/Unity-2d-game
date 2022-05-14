@@ -11,9 +11,13 @@ namespace Lin
         private PlayerView playerView = null;
         [SerializeField]
         private PlayerInputHandler inputHandler = null;
+        [SerializeField]
+        private PlayerClimbHandler climbHandler = null;
 
         //[HideInInspector]
         public bool IsGround = false;
+
+        public bool IsKickWallJump = false;
 
         [SerializeField]
         private Transform footTransform = null;
@@ -32,9 +36,22 @@ namespace Lin
         {
             IsGround = detectGround();
 
-            if (inputHandler.IsJumpPressed && IsGround)
+            if (IsGround)
+                ResetIsKickWallJump();
+
+            if (inputHandler.IsJumpPressed)
             {
-                playerView.AddForce(new Vector2(0f, jumpForce), ForceMode2D.Impulse);
+                if (IsGround)
+                {
+                    playerView.AddForce(new Vector2(0f, jumpForce), ForceMode2D.Impulse);
+                }
+                if (climbHandler.IsClimbing)
+                {
+                    playerView.transform.localScale = new Vector3(-playerView.transform.localScale.x , playerView.transform.localScale.y, playerView.transform.localScale.z);
+                    playerView.AddForce(new Vector2(playerView.transform.localScale.x * 3, jumpForce), ForceMode2D.Impulse);
+                    IsKickWallJump = true;
+                    Invoke(nameof(ResetIsKickWallJump), .25f);
+                }
             }
         }
 
@@ -45,6 +62,11 @@ namespace Lin
             var collideList = Physics2D.OverlapCircleAll(footTransform.position, detectFloorRange, floorLayer);
             
             return collideList.Length > 0;
+        }
+
+        private void ResetIsKickWallJump()
+        {
+            IsKickWallJump = false;
         }
 
         private void OnDrawGizmosSelected()

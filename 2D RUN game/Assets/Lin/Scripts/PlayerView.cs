@@ -35,12 +35,6 @@ namespace Lin
             playerRigidbody.AddForce(force, forceMode);
         }
 
-        public void SetGravity(bool value)
-        {
-            playerRigidbody.velocity = value ? new Vector2(playerRigidbody.velocity.x, playerRigidbody.velocity.y) : new Vector2(playerRigidbody.velocity.x, 0);
-            playerRigidbody.gravityScale = value ? 2.5f : 0f;
-        }
-
         public void SetFullHeight()
         {
             playerCollider.size = new Vector2(startColliderSize.x, startColliderSize.y);

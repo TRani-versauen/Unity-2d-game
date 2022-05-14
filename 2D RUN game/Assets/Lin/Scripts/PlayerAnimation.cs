@@ -11,9 +11,6 @@ namespace Lin
         private PlayerView playerView = null;
 
         [SerializeField]
-        private PlayerInputHandler inputHandler = null;
-
-        [SerializeField]
         private PlayerMoveHandler moveHandler = null;
 
         [SerializeField]
@@ -22,15 +19,6 @@ namespace Lin
         private void Update()
         {
             playerView.SetBool("isJump", !jumpHandler.IsGround);
-
-            if(Mathf.Abs(inputHandler.HorizontalInput) > .1f)
-            {
-                playerView.SetBool("isRun", true);
-            }
-            else
-            {
-                playerView.SetBool("isRun", false);
-            }
         }
     }
 

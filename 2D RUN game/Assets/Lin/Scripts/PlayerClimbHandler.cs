@@ -20,31 +20,16 @@ namespace Lin
         private float detectWallDistance = 1.5f;
 
         [SerializeField]
-        private LayerMask wallLayer = default;
-
-        public bool IsClimbing = false;
+        private LayerMask wallLayer = default;  
 
         private void Update()
         {
             if (Physics2D.Raycast(detectWallTransform.position, Vector2.right * playerView.transform.localScale.x, detectWallDistance, wallLayer) && !jumpHandler.IsGround)
             {
-                IsClimbing = true;
+                playerView.SetBool("isClimb", true);
             }
             else
-            {
-                IsClimbing = false;
-            }
-
-            playerView.SetBool("isClimb", IsClimbing);
-
-            if (!IsClimbing)
-            {
-                playerView.SetGravity(true);
-            }
-            else
-            {
-                playerView.SetGravity(false);
-            }
+                playerView.SetBool("isClimb", false);
         }
 
         private void OnDrawGizmosSelected()
